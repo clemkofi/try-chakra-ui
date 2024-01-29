@@ -18,8 +18,8 @@ const theme = extendTheme({
   },
   //   the base fonts serve as a fall back font in case the selected font is not available
   fonts: {
-    heading: `Montserrat, ${base.fonts?.heading}`,
-    body: `Inter, ${base.fonts?.body}`,
+    heading: `${base.fonts?.heading}`,
+    body: `${base.fonts?.body}`,
   },
 });
 
